@@ -1,0 +1,19 @@
+@import "../variables";
+
+.item {
+	width: 500px;
+	height: 500px;
+	background-color: $color-green-dark;
+	text-align: center;
+
+	p {
+		color: #fff;
+	}
+
+	&.is-active {
+		background-color: $color-green;
+		p {
+			color: red;
+		}
+	}
+}
