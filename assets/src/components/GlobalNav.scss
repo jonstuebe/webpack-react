@@ -1,0 +1,22 @@
+.global-nav {
+
+	.global-nav__item:last-child {
+		margin-right: 0;
+	}
+
+}
+
+.global-nav__item {
+	
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 10px;
+
+	a {
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}		
+	}	
+}

@@ -3,8 +3,8 @@ import styles from "./Item.scss";
 
 export default class Item extends Component {
 
-	constructor(props) {
-		super(props);
+	constructor(props, context) {
+		super(props, context);
 		this.state = { active: false };
 	}
 

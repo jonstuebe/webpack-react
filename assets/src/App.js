@@ -1,12 +1,18 @@
-import React, { Component } from 'react';
-import styles from './App.scss'; // create initial app styles
+import React, { Component } from 'react'
+import styles from './App.scss' // create initial app styles
 
-import Item from './components/Item';
+import GlobalNav from './components/GlobalNav'
+import Item from './components/Item'
 
-export default class App extends Component {
-  render() {
-    return (
-      <Item />
-    );
-  }
+class App extends Component {
+	render() {
+		return (
+			<div>
+				<GlobalNav />
+				<Item />
+			</div>
+			);
+	}
 }
+
+export default App
