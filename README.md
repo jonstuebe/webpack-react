@@ -17,6 +17,10 @@ For development purposes, then run the webpack dev server:
 Enjoy!
 
 ### Changelog
+
+#### 0.0.2
+- History support from React Router
+
 #### 0.0.1
 - Support for ES6 classes
 - Stylesheet compilation
